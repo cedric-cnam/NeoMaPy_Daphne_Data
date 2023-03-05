@@ -1,35 +1,45 @@
 STEP;QUERY;TIME (ms)
-delete.cypher;delete nodes;10728
-delete.cypher;TOTAL;10728
+delete.cypher;delete nodes;473
+delete.cypher;TOTAL;473
 
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;1
 schema.cypher;indices;2
 schema.cypher;indices;1
 schema.cypher;indices;1
 schema.cypher;indices;1
-schema.cypher;indices;2
-schema.cypher;TOTAL;14
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;TOTAL;10
 
-graphSetting.cypher;dataset loading;5287
-graphSetting.cypher;TOTAL;5287
+graphSetting.cypher;dataset loading;242
+graphSetting.cypher;TOTAL;242
 
-constraints.cypher;C0 - Strict Temporal Consistency;7690
-constraints.cypher;C1 - birthDateConflict;59
-constraints.cypher;C2 - deathDateConflict;41
-constraints.cypher;C3 - birthDeathConflict;58
-constraints.cypher;C4 - birthPlayerConflict;75
-constraints.cypher;C5 - deathPlayerConflict;38
-constraints.cypher;C6 - playerAgeConflict;101
-constraints.cypher;C7 - playerTooOldConflict;96
-constraints.cypher;C8 - twoTeamsConflict;8522
-constraints.cypher;C14 - marriageConflict;192
-constraints.cypher;C16 - birthMarriageConflict;24
-constraints.cypher;C17 - deathMarriageConflict;50
-constraints.cypher;C18 - playerCoachConflict;33
-constraints.cypher;C19 - twoCompaniesConflict;51
-constraints.cypher;TOTAL;17030
+constraints.cypher;C0 - Strict Temporal Consistency;1358
+constraints.cypher;C1 - birthDateConflict;4
+constraints.cypher;C2 - deathDateConflict;3
+constraints.cypher;C3 - birthDeathConflict;5
+constraints.cypher;C4 - birthPlayerConflict;22
+constraints.cypher;C5 - deathPlayerConflict;10
+constraints.cypher;C6 - playerAgeConflict;23
+constraints.cypher;C7 - playerTooOldConflict;26
+constraints.cypher;C8 - twoTeamsConflict;2340
+constraints.cypher;C14 - marriageConflict;110
+constraints.cypher;C16 - birthMarriageConflict;3
+constraints.cypher;C17 - deathMarriageConflict;2
+constraints.cypher;C18 - playerCoachConflict;8
+constraints.cypher;C19 - twoCompaniesConflict;17
+constraints.cypher;TOTAL;3931
 
-results.cypher;mapping_Neo4j_wikidata;169
+stats.cypher;Nb triplets;1
+stats.cypher;Nb "o";1
+stats.cypher;Nb "s";0
+stats.cypher;nb "p";0
+stats.cypher;Nb "p" links distribution;0
+stats.cypher;Nb conflicts distribution;0
+stats.cypher;Nb temporal conflicts;1
+stats.cypher;Distribution of linked "o";0
+results.cypher;mapping_Neo4j_wikidata;1
+results.cypher;noConflicts;1
+results.cypher;conflicts;0
