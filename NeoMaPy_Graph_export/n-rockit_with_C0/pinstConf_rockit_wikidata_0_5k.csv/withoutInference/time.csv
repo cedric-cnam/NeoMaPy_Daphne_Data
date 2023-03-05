@@ -1,45 +1,45 @@
 STEP;QUERY;TIME (ms)
-delete.cypher;delete nodes;517
-delete.cypher;TOTAL;517
+delete.cypher;delete nodes;466
+delete.cypher;TOTAL;466
 
-schema.cypher;indices;3
 schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;indices;2
-schema.cypher;TOTAL;19
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;5
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;indices;1
+schema.cypher;TOTAL;14
 
-graphSetting.cypher;dataset loading;391
-graphSetting.cypher;TOTAL;391
+graphSetting.cypher;dataset loading;303
+graphSetting.cypher;TOTAL;303
 
-constraints.cypher;C0 - Strict Temporal Consistency;1397
-constraints.cypher;C1 - birthDateConflict;37
-constraints.cypher;C2 - deathDateConflict;5
-constraints.cypher;C3 - birthDeathConflict;63
-constraints.cypher;C4 - birthPlayerConflict;48
-constraints.cypher;C5 - deathPlayerConflict;40
-constraints.cypher;C6 - playerAgeConflict;80
-constraints.cypher;C7 - playerTooOldConflict;61
-constraints.cypher;C8 - twoTeamsConflict;2368
-constraints.cypher;C14 - marriageConflict;114
-constraints.cypher;C16 - birthMarriageConflict;35
-constraints.cypher;C17 - deathMarriageConflict;4
-constraints.cypher;C18 - playerCoachConflict;38
-constraints.cypher;C19 - twoCompaniesConflict;19
-constraints.cypher;TOTAL;4309
+constraints.cypher;C0 - Strict Temporal Consistency;879
+constraints.cypher;C1 - birthDateConflict;3
+constraints.cypher;C2 - deathDateConflict;2
+constraints.cypher;C3 - birthDeathConflict;4
+constraints.cypher;C4 - birthPlayerConflict;23
+constraints.cypher;C5 - deathPlayerConflict;13
+constraints.cypher;C6 - playerAgeConflict;16
+constraints.cypher;C7 - playerTooOldConflict;11
+constraints.cypher;C8 - twoTeamsConflict;1346
+constraints.cypher;C14 - marriageConflict;109
+constraints.cypher;C16 - birthMarriageConflict;2
+constraints.cypher;C17 - deathMarriageConflict;2
+constraints.cypher;C18 - playerCoachConflict;7
+constraints.cypher;C19 - twoCompaniesConflict;4
+constraints.cypher;TOTAL;2421
 
-stats.cypher;Nb triplets;2
-stats.cypher;Nb "o";1
-stats.cypher;Nb "s";1
-stats.cypher;nb "p";1
-stats.cypher;Nb "p" links distribution;1
-stats.cypher;Nb conflicts distribution;1
-stats.cypher;Nb temporal conflicts;1
-stats.cypher;Distribution of linked "o";1
-results.cypher;mapping_Neo4j_wikidata;59
-results.cypher;noConflicts;1
-results.cypher;conflicts;1
+stats.cypher;Nb triplets;1
+stats.cypher;Nb "o";0
+stats.cypher;Nb "s";0
+stats.cypher;nb "p";0
+stats.cypher;Nb "p" links distribution;0
+stats.cypher;Nb conflicts distribution;0
+stats.cypher;Nb temporal conflicts;0
+stats.cypher;Distribution of linked "o";0
+results.cypher;mapping_Neo4j_wikidata;0
+results.cypher;noConflicts;0
+results.cypher;conflicts;0
